@@ -1,15 +1,44 @@
-html, body {
+html,
+body {
   background-color: rgb(31, 255, 31);
   color: rgb(0, 0, 195);
+  font-family: space-mono;
+  text-align: center;
 }
 
 h1 {
   text-decoration-line: overline;
-  text-decoration-color: red;
+  text-decoration-color: rgb(255, 242, 0);
+  font-family: fantasy
+  font-size: xx-large;
+  background-color: black;
+  color: rgb(255, 0, 0);
 }
 
 
-h1 {
-  background-color: black;
-  color: rgb(255, 0, 0);
+body {
+  font-family: space-mono
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+
+}
+
+
+h2 {
+  color: yellow;
+  font-family: space-mono;
+  font-size: x-large;
+  font-stretch: condensed;
+  font-style: italic;
+
+}
+
+
+
+p {
+  padding: 5%;
+  font-size: larger;
+  span: .font 2px;
+  font-family: "Baskerville-Old-Face"
 }

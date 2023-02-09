@@ -14,8 +14,8 @@ console.log('')
 
 
 function questionOne() {
-  let ans = prompt("Does Davey play guitar?");
-  if (ans == "yes") {
+  let ans = prompt("Does Davey play guitar? Yes or No");
+  if (ans == "Yes") {
     alert("Most Excellent!");
   } else {
     alert("Bogus!");
@@ -23,6 +23,16 @@ function questionOne() {
 }
 questionOne()
 
+
+let q1guess = prompt(`Hey ${userName} do you think I have a partner? yes/no`).toLowerCase();
+
+if (q1guess === 'yes') {
+  alert('Negative, Ghost Rider');
+  count--;
+} else if (q1guess === 'no') {
+  alert('Correct I do not');
+  count++;
+}
 function timeOfDay() {
   let time = prompt('What hour is it? (0-23)'); // 15;
   let message = '';
@@ -41,15 +51,24 @@ function timeOfDay() {
 }
 timeOfDay()
 
-function displayRating() {
 
-  let output = '7';
-  let rating = prompt('scale of 1-10, how many Guitars does Davey Own?');
-  for (let i = 1; i < rating; i++) {
-    output += "<img class='star' src='images/star.png'/>";
+function showImage() {
+  let response = prompt("Guess the number of guitars Davey owns, between 1 and 10");
+  response = parseInt(response)
+  console.log(response);
+
+  if (response == 7) {
+
+    for (let i = 1; i < 8; i++) {
+
+      let img = document.createElement('img');
+      <img.src ="img./CapaldiDrsGuitar.jpg">
+      document.body.appendChild(img);
+      console.log(response);
+    }
+  } else {
+    showImage();
   }
-
-  return document.write(output);
 }
 
 guessANumber();
