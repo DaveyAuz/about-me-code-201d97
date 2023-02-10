@@ -36,7 +36,7 @@ if (q1guess === 'yes') {
   count++;
 }
 function timeOfDay() {
-  let time = prompt('What hour is it? (0-23)'); // 15;
+  let time = prompt('What time is it? (0-23)'); // 15;
   let message = '';
 
   if (time <= 11) {
@@ -46,7 +46,7 @@ function timeOfDay() {
   } else if (time < 24) {
     message = 'Good Evening!';
   } else {
-    message = 'That hour does not exist!';
+    message = 'That time does not exist!';
   }
 
   return message;
