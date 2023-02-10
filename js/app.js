@@ -1,36 +1,38 @@
 'use strict';
 
+// eslint-disable-next-line no-unused-vars
 function getName() {
   //    return name
 }
 
-
+let name = ''
 function welcome() {
-  let name = prompt("Please Enter Your Name");
-  document.write("Greetings Carbon Based Life-form, " + name + "!");
+  name = prompt('Please Enter Your Name');
+  document.write('Greetings Carbon Based Life-form, ' + name + '!');
 }
-welcome()
-console.log('')
+welcome();
+console.log('');
 
 
 function questionOne() {
-  let ans = prompt("Does Davey play guitar? Yes or No");
-  if (ans == "Yes") {
-    alert("Most Excellent!");
+  let ans = prompt('Does Davey play guitar? Yes or No');
+  if (ans === "Yes") {
+    alert('Most Excellent!');
   } else {
-    alert("Bogus!");
+    alert('Bogus!');
   }
 }
-questionOne()
+questionOne();
 
 
-let q1guess = prompt(`Hey ${userName} do you think I have a partner? yes/no`).toLowerCase();
-
+let q1guess = prompt(`Hey ${name} do you think I have a partner? yes/no`).toLowerCase();
+let count = 0;
 if (q1guess === 'yes') {
-  alert('Negative, Ghost Rider');
+  alert('N̶̪̥̄̽e̷̛̼̼͖͌͐ͅg̵̣͕̥͇̮̏̀ä̸͈̇̇t̷̨̰͊̕͝͠i̴̧͔̔͂v̴e̵͆  G̸̓h̴̬̀̾ȯ̵̘̏̇̌s̷͇̦̞̥͂̈́̽̏t̴̎  R̶̨͈̺͑͊́̈́ͅi̶̳̹̅d̸͇̾͆͛̐͑ȩ̴̨̳̗̓̎͛r̶̺͖̱̺̀̂́͋̋');
   count--;
 } else if (q1guess === 'no') {
   alert('Correct I do not');
+
   count++;
 }
 function timeOfDay() {
@@ -42,33 +44,34 @@ function timeOfDay() {
   } else if (time <= 18) {
     message = 'Good Afternoon!';
   } else if (time < 24) {
-    message = "Good Evening!";
+    message = 'Good Evening!';
   } else {
-    message = "That hour does not exist!";
+    message = 'That hour does not exist!';
   }
 
   return message;
 }
-timeOfDay()
+timeOfDay();
 
 
 function showImage() {
-  let response = prompt("Guess the number of guitars Davey owns, between 1 and 10");
-  response = parseInt(response)
+  let response = prompt('Guess the number of guitars Davey owns, between 1 and 10');
+  response = parseInt(response);
   console.log(response);
-
-  if (response == 7) {
+  if (response === 7) {
 
     for (let i = 1; i < 8; i++) {
 
       let img = document.createElement('img');
-      <img.src ="img./CapaldiDrsGuitar.jpg">
+      img.src = './img/CapaldiDrsGuitar.jpg';
       document.body.appendChild(img);
       console.log(response);
     }
   } else {
     showImage();
   }
-}
 
-guessANumber();
+
+}
+// guessANumber();
+showImage();
