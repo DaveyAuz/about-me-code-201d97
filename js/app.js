@@ -5,7 +5,7 @@ function getName() {
   //    return name
 }
 
-let name = ''
+let name = '';
 function welcome() {
   name = prompt('Please Enter Your Name');
   document.write('Greetings Carbon Based Life-form, ' + name + '!');
@@ -16,7 +16,7 @@ console.log('');
 
 function questionOne() {
   let ans = prompt('Does Davey play guitar? Yes or No');
-  if (ans === "Yes") {
+  if (ans === 'Yes') {
     alert('Most Excellent!');
   } else {
     alert('B̵̨̢̡̛̳̼̦̥͕̝̘̬͚̘̤̻̞̯̄̀̈̂̾̇̅͋̐̓͘͠͝͝Ō̴̢̡̱͍͇̦̪̰͕̟̯͚̬͕̪̲͓̳͇̻̗̖͓̓͌͑̉̍͌̓̆̄̿̈́̾͂͘͜͠G̶̨̘̜̜͈͉͇͔̈́̍͆͝U̶̽̅S̵̡̡̢̢͉̭̻̮̙̹̗͇̣̫̤̣̙̘̻̣͍̙̩̫̰͇̞̦̦̤̜͓̹͍̤̥̜̥͈͚̪̮̝͆͋̽̃̊͑̀̉́̿̆̈́̉̀̔̑̕̕͘̚̚̚̕!̴̽̊͆́̓͋͊̓̈́̓́̽͗͗͊̅̊͐͒̓͛̂̾̏!̷̅͝!̸̨̢͔̞͈͖̭̫̫͇͔̭̮͉͇̫̬̪̯͎̏͂̏͆̉͋̋͋͜!̷̧̞͓̻̹̺͓̣͍̈́̕');
@@ -36,7 +36,7 @@ if (q1guess === 'yes') {
   count++;
 }
 function timeOfDay() {
-  let time = prompt('What time is it? (0-23)'); // 15;
+  let time = prompt('What time is it? (0001-2359)'); // 15;
   let message = '';
 
   if (time <= 11) {
