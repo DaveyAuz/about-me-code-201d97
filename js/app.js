@@ -8,7 +8,8 @@ function getName() {
 let name = '';
 function welcome() {
   name = prompt('Please Enter Your Name');
-  document.write('Greetings Carbon Based Life-form, ' + name + '!');
+   document.write('Greetings Carbon Based Life-form, ' + name + '!');
+  //document.getElementById('greetings').innerHTML= 'Greetings Carbon Based Life-form, ' + name + '!' ;
 }
 welcome();
 console.log('');
@@ -19,7 +20,7 @@ function questionOne() {
   if (ans === 'Yes') {
     alert('Most Excellent!');
   } else {
-    alert('B̵̨̢̡̛̳̼̦̥͕̝̘̬͚̘̤̻̞̯̄̀̈̂̾̇̅͋̐̓͘͠͝͝Ō̴̢̡̱͍͇̦̪̰͕̟̯͚̬͕̪̲͓̳͇̻̗̖͓̓͌͑̉̍͌̓̆̄̿̈́̾͂͘͜͠G̶̨̘̜̜͈͉͇͔̈́̍͆͝U̶̽̅S̵̡̡̢̢͉̭̻̮̙̹̗͇̣̫̤̣̙̘̻̣͍̙̩̫̰͇̞̦̦̤̜͓̹͍̤̥̜̥͈͚̪̮̝͆͋̽̃̊͑̀̉́̿̆̈́̉̀̔̑̕̕͘̚̚̚̕!̴̽̊͆́̓͋͊̓̈́̓́̽͗͗͊̅̊͐͒̓͛̂̾̏!̷̅͝!̸̨̢͔̞͈͖̭̫̫͇͔̭̮͉͇̫̬̪̯͎̏͂̏͆̉͋̋͋͜!̷̧̞͓̻̹̺͓̣͍̈́̕');
+    alert('(つ◉益◉)つ乃ㄖᎶㄩ丂!!!!!');
   }
 }
 questionOne();
@@ -28,7 +29,7 @@ questionOne();
 let q1guess = prompt(`Hey ${name} do you think I have a partner? yes/no`).toLowerCase();
 let count = 0;
 if (q1guess === 'yes') {
-  alert('N̶̪̥̄̽e̷̛̼̼͖͌͐ͅg̵̣͕̥͇̮̏̀ä̸͈̇̇t̷̨̰͊̕͝͠i̴̧͔̔͂v̴e̵͆  G̸̓h̴̬̀̾ȯ̵̘̏̇̌s̷͇̦̞̥͂̈́̽̏t̴̎  R̶̨͈̺͑͊́̈́ͅi̶̳̹̅d̸͇̾͆͛̐͑ȩ̴̨̳̗̓̎͛r̶̺͖̱̺̀̂́͋̋');
+  alert('👻👻👻×º°”˜`”°º× 几ヨ呂丹卞工レヨ    呂廾回己卞   尺工句ヨ尺!!!!!×º°”˜`”°º×👻👻👻');
   count--;
 } else if (q1guess === 'no') {
   alert('Correct I do not');

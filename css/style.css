@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Libre+Baskerville&family=Orbitron:wght@500&display=swap');
+
 html,
 body {
   background-color: rgb(31, 255, 31);
   color: rgb(0, 0, 195);
-  font-family: space-mono;
+  font-size: 75px;
+  font-family: 'Exo 2';
   text-align: center;
 }
 
 h1 {
   text-decoration-line: overline;
   text-decoration-color: rgb(255, 242, 0);
-  font-family: fantasy font-size: xx-large;
-  width: max-content;
+  font-family: "Libre Baskerville",serif; 
+  font-size: 100px;
+  width: 70%;
   margin: auto;
   background-color: black;
   color: rgb(255, 0, 0);
@@ -18,8 +22,10 @@ h1 {
 
 
 body {
-  font-family: space-mono height: 100%;
-  width: 100%;
+  font-family: "Orbitron"; 
+  font-size: 50px;
+  height: 100%;
+  width: 70%;
   background-color: rgb(0, 0, 0);
 
 }
@@ -30,25 +36,27 @@ figure {
 
 h2 {
   color: yellow;
-  font-family: space-mono;
-  font-size: x-large;
+  font-family: "Exo 2";
+  font-size: 1vw;
   font-stretch: condensed;
   font-style: italic;
 
 }
 
 img {
-  width: 550px;
+  width: 400px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 100px;
+  padding-left: 10px;
 }
 
 p {
   padding: 5%;
   font-size: larger;
-  span: .font 2px;
-  font-family: "Baskerville-Old-Face"
+  /* span: .font 2px; */
+  font-family: 'Orbitron';
+  width:70%;
+  font-stretch: condensed 
 }
 
 figcaption {
