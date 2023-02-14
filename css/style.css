@@ -26,21 +26,24 @@ body {
   font-size: 50px;
   height: 100%;
   width: 70%;
+  margin:auto;
   background-color: rgb(0, 0, 0);
-
 }
 
 figure {
   width: 70%;
   }
+  
+#greetings{
+ display: block;
 
+}
 h2 {
   color: yellow;
   font-family: "Exo 2";
-  font-size: 1vw;
+  font-size: 100px;
   font-stretch: condensed;
   font-style: italic;
-
 }
 
 img {
@@ -52,11 +55,12 @@ img {
 
 p {
   padding: 5%;
-  font-size: larger;
+  font-size: 100px;
   /* span: .font 2px; */
   font-family: 'Orbitron';
   width:70%;
-  font-stretch: condensed 
+  margin:auto;
+  font-stretch: condensed; 
 }
 
 figcaption {

@@ -8,7 +8,7 @@ function getName() {
 let name = '';
 function welcome() {
   name = prompt('Please Enter Your Name');
-   document.write('Greetings Carbon Based Life-form, ' + name + '!');
+  document.getElementById('greetings').textContent= ('Greetings Carbon Based Life-form, ' + name + '!');
   //document.getElementById('greetings').innerHTML= 'Greetings Carbon Based Life-form, ' + name + '!' ;
 }
 welcome();
@@ -64,8 +64,8 @@ function showImage() {
     for (let i = 1; i < 8; i++) {
 
       let img = document.createElement('img');
-      img.src = './img/CapaldiDrsGuitar.jpg';
-      document.body.appendChild(img);
+      img.src = 'img/CapaldiDrsGuitar.jpg';
+      document.getElementById('images').appendChild(img);
       console.log(response);
     }
   } else {
