@@ -1,6 +1,7 @@
 'use strict';
 let count = 0;
 let name = '';
+let userCount = document.getElementById('user-count');
 // eslint-disable-next-line no-unused-vars
 function getName() {
   //    return name
@@ -31,14 +32,14 @@ function questionOne() {
 questionOne();
 
 function questionTwo() {
-  let q1guess = prompt(`Hey ${name} do you think I have a partner? yes/no`)//.toLowerCase();
+  let q1guess = prompt(`Hey ${name} do you think I have a partner? yes/no`).toLowerCase();
   //let count = 0;
   if (q1guess === 'yes') {
     alert('👻👻👻×º°”˜`”°º× 几ヨ呂丹卞工レヨ    呂廾回己卞   尺工句ヨ尺!!!!!×º°”˜`”°º×👻👻👻');
-  } else if (q1guess === 'no') {
+  } else {
     alert('Correct I do not');
-    // eslint-disable-next-line no-unused-vars
     count++;
+    // eslint-disable-next-line no-unused-vars
   }
 }
 questionTwo();
@@ -118,7 +119,7 @@ function questionSeven() {
   let numOfGuesses = 0;
   let corrAns = false;
   while (numOfGuesses < 6 && corrAns === false) {
-    let qSevenGuess = prompt('What is my favorite type of food? Hint:" Sushi, Shawarma, Pizza, Fried Chicken, Spotted Dick, Tacos or Pig Intestines ').toLowerCase();
+    let qSevenGuess = prompt('What is my favorite type of food? Hint:" Sushi, Shawarma, Pizza, Fried Chicken, Spotted Dick, Tacos or Brisket ').toLowerCase();
     //for (let i = 0; i < favFoods.length; i++) {
     if (favFoods.includes(qSevenGuess)) {
       alert(`Congrats ${name} you got one of them right! All of my favorites are ` + favFoods);
@@ -135,6 +136,8 @@ function questionSeven() {
   if (numOfGuesses === 6) {
     alert(`Sorry ${name} you didn't guess any of my favorites! My favorites are ` + favFoods);
   }
+  //  document.write ('<h1>You got ' + count + ' out of 7 correct answers!</h1>');
+  userCount.textContent = 'You got ' + count + ' out of 7 correct answers!';
 }
 questionSeven();
 
